@@ -1,0 +1,7 @@
+PCAngsd v.1.03
+Time: 13/07/2024 17:21:28
+Directory: /media/morpheus/sagar/kadak_part2/FM_ID_Project/ID_PCA_AD/Fm_139_PCA
+Options:
+	-beagle genolike_Dup2_139_ind.beagle.gz
+	-threads 32
+	-out genolike_Dup2_139
