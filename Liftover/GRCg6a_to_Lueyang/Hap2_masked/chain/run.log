@@ -1,0 +1,143 @@
+# Make Lastz Chains #
+Version 2.0.8
+Commit: 187e313afc10382fe44c96e47f27c4466d63e114
+Branch: main
+
+* found run_lastz.py at /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/standalone_scripts/run_lastz.py
+* found run_lastz_intermediate_layer.py at /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/standalone_scripts/run_lastz_intermediate_layer.py
+* found chain_gap_filler.py at /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/standalone_scripts/chain_gap_filler.py
+* found faToTwoBit at /usr/bin/faToTwoBit
+* found twoBitToFa at /usr/local/bin/twoBitToFa
+* found pslSortAcc at /usr/local/bin/pslSortAcc
+* found axtChain at /usr/bin/axtChain
+* found axtToPsl at /home/morpheus/anaconda3/bin/axtToPsl
+* found chainAntiRepeat at /home/morpheus/anaconda3/bin/chainAntiRepeat
+* found chainMergeSort at /home/morpheus/anaconda3/bin/chainMergeSort
+* found chainCleaner at /usr/local/bin/chainCleaner
+* found chainSort at /home/morpheus/anaconda3/bin/chainSort
+* found chainScore at /usr/local/bin/chainScore
+* found chainNet at /home/morpheus/anaconda3/bin/chainNet
+* found chainFilter at /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/HL_kent_binaries/chainFilter
+* found lastz at /home/morpheus/anaconda3/bin/lastz
+* found nextflow at /home/morpheus/anaconda3/bin/nextflow
+All necessary executables found.
+Making chains for GRCg6a_chr20.fa and Lueyang_chr20.fa_Hap2_masked.fa files, saving results to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain
+Pipeline started at 2024-07-06 19:50:16.494736
+* Setting up genome sequences for target
+genomeID: GRCg6a_chr20
+input sequence file: GRCg6a_chr20.fa
+is 2bit: False
+planned genome dir location: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.2bit
+Initial fasta file GRCg6a_chr20.fa saved to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.2bit
+For GRCg6a_chr20 (target) sequence file: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.2bit; chrom sizes saved to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.chrom.sizes
+* Setting up genome sequences for query
+genomeID: Lueyang_chr20_Hap2
+input sequence file: Lueyang_chr20.fa_Hap2_masked.fa
+is 2bit: False
+planned genome dir location: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query.2bit
+Initial fasta file /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/Lueyang_chr20_Hap2_renamed_chrom.fa saved to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query.2bit
+For Lueyang_chr20_Hap2 (query) sequence file: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query.2bit; chrom sizes saved to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query.chrom.sizes
+Warning! Genome sequence file /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/Lueyang_chr20_Hap2_renamed_chrom.fa
+1 chromosome names cannot be processed via pipeline
+were renamed in the intermediate files according to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/Lueyang_chr20_Hap2_chrom_rename_table.tsv
+
+### Partition Step ###
+
+# Partitioning for target
+Saving partitions and creating 1 buckets for lastz output
+In particular, 0 partitions for bigger chromosomes
+And 1 buckets for smaller scaffolds
+Saving target partitions to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target_partitions.txt
+# Partitioning for query
+Saving partitions and creating 1 buckets for lastz output
+In particular, 0 partitions for bigger chromosomes
+And 1 buckets for smaller scaffolds
+Saving query partitions to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query_partitions.txt
+Num. target partitions: 0
+Num. query partitions: 0
+Num. lastz jobs: 0
+
+### Lastz Alignment Step ###
+
+LASTZ: making jobs
+LASTZ: saved 1 jobs to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_lastz_run/lastz_joblist.txt
+Parallel manager: pushing job /home/morpheus/anaconda3/bin/nextflow /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/parallelization/execute_joblist.nf --joblist /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_lastz_run/lastz_joblist.txt -c /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_lastz_run/lastz_config.nf
+
+### Nextflow process lastz finished successfully
+Found 1 output files from the LASTZ step
+Please note that lastz_step.py does not produce output in case LASTZ could not find any alignment
+
+### Concatenating Lastz Results (Cat) Step ###
+
+Concatenating LASTZ output from 1 buckets
+* concatenated bucket bucket_ref_bulk_1 to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_concat_lastz_output/concat_0.psl.gz
+Concatenated 1 files in total into 1 files
+
+### Build Chains Step ###
+
+Sorting PSL files, saving the results to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/sorted_psl
+/usr/local/bin/pslSortAcc nohead /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/sorted_psl /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_kent /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_concat_lastz_output/concat_0.psl.gz
+Bundling psl files with the following arguments:
+* input_dir: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/sorted_psl
+* chrom_sizes: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.chrom.sizes
+* output_dir: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/split_psl
+* max_bases: 1000000
+* warning_only: False
+* verbose: False
+Saving results to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/split_psl
+Bundling 1 psl files in total
+Written to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/split_psl/bundle.0.psl
+DONE. Produced 2 files
+PSL bundle sub-step done
+Building axtChain joblist for 1 bundled psl files
+Saving 1 axtChain jobs to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/chains_joblist
+Parallel manager: pushing job /home/morpheus/anaconda3/bin/nextflow /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/parallelization/execute_joblist.nf --joblist /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/chains_joblist -c /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/chain_run_config.nf
+
+### Nextflow process chain_run finished successfully
+Chain run output files saved to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/chain
+
+### Merge Chains Step ###
+
+Executing the following sequence of piped commands:
+['find', '/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/chain', '-name', '*chain']
+['/home/morpheus/anaconda3/bin/chainMergeSort', '-inputList=stdin', '-tempDir=/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_kent']
+['gzip', '-c']
+Saved merged results to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.all.chain.gz
+
+### Fill Chains Step ###
+
+Preparing fill jobs
+gunzip -c /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.all.chain.gz > /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_fill_chain/temp.all.chain
+Found 3038 chain IDs
+Wrote output to 1000 files starting with '/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_fill_chain/fill_chain_chunks/infill_chain_'.
+Creating repeat filler jobs list
+fGot 1000 chain files to fill
+Adding --unmask flag
+Saved 1000 chain fill jobs to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_fill_chain/repeat_filler_joblist.txt
+Parallel manager: pushing job /home/morpheus/anaconda3/bin/nextflow /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/parallelization/execute_joblist.nf --joblist /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_fill_chain/repeat_filler_joblist.txt -c /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_fill_chain/fill_chain_config.nf
+
+### Nextflow process fill_chain finished successfully
+Merging filled chains
+Executing the following sequence of commands in a pipe:
+['find', '/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_fill_chain/filled_chain_files', '-type', 'f', '-name', '*.chain', '-print']
+['/home/morpheus/anaconda3/bin/chainMergeSort', '-inputList=stdin', '-tempDir=/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_kent']
+['gzip', '-c']
+Merging filled chains done
+Fill chains step complete
+
+### Clean Chains Step ###
+
+Chains were filled: using /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.filled.chain.gz as input
+Chain to be cleaned saved to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.before_cleaning.chain.gz
+Executing the following chain cleaner command:
+/usr/local/bin/chainCleaner /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.before_cleaning.chain.gz /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.2bit /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query.2bit /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.filled.chain__temp /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/removed_suspects.bed -linearGap=loose -tSizes=/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/target.chrom.sizes -qSizes=/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/query.chrom.sizes -LRfoldThreshold=2.5 -doPairs -LRfoldThresholdPairs=10 -maxPairDistance=10000 -maxSuspectScore=100000 -minBrokenChainScore=75000
+Not filtered by score chains temporary saved to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.filled.chain__temp
+Chain clean results saved to: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.filled.chain
+Chain clean DONE
+
+### All core pipeline steps done ###
+
+Chains were filled, using /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/temp_chain_run/GRCg6a_chr20.Lueyang_chr20_Hap2.filled.chain.gz as the last output file.
+Saved final chains file to /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Lueyang/Hap2_masked/chain/GRCg6a_chr20.Lueyang_chr20_Hap2.final.chain.gz
+Temp files are not deleted because of the --keep_temp flag
+make_lastz_chains run done in 0:04:27.490800

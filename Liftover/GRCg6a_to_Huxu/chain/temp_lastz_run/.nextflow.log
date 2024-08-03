@@ -1,0 +1,48 @@
+Jul-06 18:12:20.851 [main] DEBUG nextflow.cli.Launcher - $> nextflow /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/parallelization/execute_joblist.nf --joblist /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Huxu/chain/temp_lastz_run/lastz_joblist.txt -c /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Huxu/chain/temp_lastz_run/lastz_config.nf
+Jul-06 18:12:21.039 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+Jul-06 18:12:21.233 [main] INFO  nextflow.cli.CmdRun - Launching `/media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/parallelization/execute_joblist.nf` [thirsty_miescher] - revision: 0483b29723
+Jul-06 18:12:21.288 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Huxu/chain/temp_lastz_run/lastz_config.nf
+Jul-06 18:12:21.288 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Huxu/chain/temp_lastz_run/lastz_config.nf
+Jul-06 18:12:21.345 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-06 18:12:23.324 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/home/morpheus/.nextflow/plugins
+Jul-06 18:12:23.326 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-06 18:12:23.374 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-06 18:12:23.376 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-06 18:12:23.380 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jul-06 18:12:23.405 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-06 18:12:23.558 [main] DEBUG nextflow.Session - Session uuid: 315c0a14-4c0d-4497-b047-499ccc0e8acd
+Jul-06 18:12:23.558 [main] DEBUG nextflow.Session - Run name: thirsty_miescher
+Jul-06 18:12:23.559 [main] DEBUG nextflow.Session - Executor pool size: 72
+Jul-06 18:12:23.648 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (22:25 IDT)
+  System: Linux 5.15.0-97-generic
+  Runtime: Groovy 3.0.9 on OpenJDK 64-Bit Server VM 1.8.0_382-b05
+  Encoding: UTF-8 (UTF-8)
+  Process: 2105454@morpheus-OptiPlex-5050 [127.0.1.1]
+  CPUs: 72 - Mem: 503.7 GB (139.2 GB) - Swap: 2 GB (781.9 MB)
+Jul-06 18:12:23.695 [main] DEBUG nextflow.Session - Work-dir: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Huxu/chain/temp_lastz_run/work [xfs]
+Jul-06 18:12:23.696 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /media/morpheus/sagar/BUDDHA/TOGA_new/make_lastz_chains/parallelization/bin
+Jul-06 18:12:23.707 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-06 18:12:23.719 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-06 18:12:23.765 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 73; maxThreads: 1000
+Jul-06 18:12:25.721 [main] DEBUG nextflow.Session - Session start invoked
+Jul-06 18:12:26.069 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-06 18:12:26.182 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 73; maxThreads: 1000
+Jul-06 18:12:26.252 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Jul-06 18:12:26.252 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-06 18:12:26.257 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-06 18:12:26.265 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=72; memory=503.7 GB; capacity=1000; pollInterval=100ms; dumpInterval=5m
+Jul-06 18:12:26.368 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: execute_jobs
+Jul-06 18:12:26.370 [main] DEBUG nextflow.Session - Ignite dataflow network (2)
+Jul-06 18:12:26.377 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > execute_jobs
+Jul-06 18:12:26.378 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Jul-06 18:12:26.378 [main] DEBUG nextflow.Session - Session await
+Jul-06 18:12:26.508 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-06 18:12:26.512 [Task submitter] INFO  nextflow.Session - [2e/216f0e] Submitted process > execute_jobs (1)
+Jul-06 18:16:18.255 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: execute_jobs (1); status: COMPLETED; exit: 0; error: -; workDir: /media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_Huxu/chain/temp_lastz_run/work/2e/216f0e40074d0d4639a22cb4126ee6]
+Jul-06 18:16:18.267 [main] DEBUG nextflow.Session - Session await > all process finished
+Jul-06 18:16:18.350 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-06 18:16:18.367 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=3m 52s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=16 GB; ]
+Jul-06 18:16:18.583 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Jul-06 18:16:18.625 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

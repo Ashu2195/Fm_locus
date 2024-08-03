@@ -1,0 +1,1 @@
+BULK_1:/media/morpheus/sagar/kadak_part2/Fm2_CAU/Liftover/GRCg6a_to_CAU/Hap1_masked/chain/target.2bit:20

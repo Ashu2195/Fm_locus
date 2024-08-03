@@ -1,0 +1,9 @@
+{
+    "partition": "completed",
+    "lastz": "completed",
+    "cat": "completed",
+    "chain_run": "completed",
+    "chain_merge": "completed",
+    "fill_chains": "completed",
+    "clean_chains": "completed"
+}
