@@ -1,0 +1,386 @@
+Huxu_Dup1_HDP1_HDP10.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+Huxu_Dup1_HDP121_HDP130.bed
+Working on variant 1/1
+Huxu_Dup2_HDP1_HDP10.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP11_HDP20.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP21_HDP30.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP31_HDP40.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP41_HDP50.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP51_HDP60.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP61_HDP70.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP71_HDP80.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP81_HDP90.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP91_HDP100.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP101_HDP110.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP111_HDP120.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP121_HDP130.bed
+Working on variant 1/10
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
+Huxu_Dup2_HDP131_HDP140.bed
+Working on variant 1/7
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 288, in create_session_dict
+    data = reader.slice(region, region2)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 122, in slice
+    features = parse(self.file, reader=self)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/feature.py", line 228, in parse
+    f = getstream(path)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/stream.py", line 25, in getstream
+    f = open(file, encoding='UTF-8')
+FileNotFoundError: [Errno 2] No such file or directory: 'DUP2_HDPs.bed'
