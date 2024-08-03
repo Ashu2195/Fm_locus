@@ -2,3 +2,4 @@ GRCg6a_IGV_report/Dup1_IGV/Dup1_HDP10_HDP20_CAU_Silkie_PacBio_IGV filter=lfs dif
 GRCg6a_IGV_report/Dup1_IGV/Dup1_HDP110_HDP122_CAU_Silkie_ONT_IGV filter=lfs diff=lfs merge=lfs -text
 GRCg6a_IGV_report/Dup1_IGV/Dup1_HDP110_HDP122_CAU_Silkie_PacBio_IGV filter=lfs diff=lfs merge=lfs -text
 GRCg6a_IGV_report/Dup1_IGV/Dup1_HDP1_HDP10_CAU_Silkie_PacBio_IGV filter=lfs diff=lfs merge=lfs -text
+GRCg6a_IGV_report/Dup1_IGV/Dup1_HDP20_HDP30_CAU_Silkie_PacBio_IGV filter=lfs diff=lfs merge=lfs -text
