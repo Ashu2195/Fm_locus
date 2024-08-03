@@ -1,0 +1,1264 @@
+CAU_Silkie_Dup1_Hap1_HDP1_HDP10.bed
+Working on variant 1/11
+Working on variant 2/11
+Working on variant 3/11
+Working on variant 4/11
+Working on variant 5/11
+Working on variant 6/11
+Working on variant 7/11
+Working on variant 8/11
+Working on variant 9/11
+Working on variant 10/11
+Working on variant 11/11
+CAU_Silkie_Dup1_Hap1_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP121_HDP130.bed
+Working on variant 1/1
+CAU_Silkie_Dup1_Hap2_HDP1_HDP10.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP11_HDP20.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP21_HDP30.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP31_HDP40.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP41_HDP50.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP51_HDP60.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP61_HDP70.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP71_HDP80.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP81_HDP90.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP91_HDP100.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP101_HDP110.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP111_HDP120.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP121_HDP130.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup2_Hap1_HDP1_HDP10.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP121_HDP130.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP131_HDP140.bed
+Working on variant 1/7
+Working on variant 2/7
+Working on variant 3/7
+Working on variant 4/7
+Working on variant 5/7
+Working on variant 6/7
+Working on variant 7/7
+CAU_Silkie_Dup2_Hap2_HDP1_HDP10.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP121_HDP130.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP131_HDP140.bed
+Working on variant 1/7
+Working on variant 2/7
+Working on variant 3/7
+Working on variant 4/7
+Working on variant 5/7
+Working on variant 6/7
+Working on variant 7/7
+CAU_Silkie_Dup1_Hap1_HDP1_HDP10.bed
+Working on variant 1/11
+Working on variant 2/11
+Working on variant 3/11
+Working on variant 4/11
+Working on variant 5/11
+Working on variant 6/11
+Working on variant 7/11
+Working on variant 8/11
+Working on variant 9/11
+Working on variant 10/11
+Working on variant 11/11
+CAU_Silkie_Dup1_Hap1_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup1_Hap1_HDP121_HDP130.bed
+Working on variant 1/1
+CAU_Silkie_Dup1_Hap2_HDP1_HDP10.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP11_HDP20.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP21_HDP30.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP31_HDP40.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP41_HDP50.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP51_HDP60.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP61_HDP70.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP71_HDP80.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP81_HDP90.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP91_HDP100.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP101_HDP110.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP111_HDP120.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup1_Hap2_HDP121_HDP130.bed
+Traceback (most recent call last):
+  File "/home/ashutosh/.local/bin/create_report", line 8, in <module>
+    sys.exit(main())
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 509, in main
+    create_report(args)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 111, in create_report
+    session_dict = json.dumps(create_session_dict(args, table, trackjson))
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/report.py", line 182, in create_session_dict
+    fasta_reader = FastaReader(args.fasta)
+  File "/home/ashutosh/.local/lib/python3.8/site-packages/igv_reports/fasta.py", line 31, in __init__
+    self.fasta = pysam.FastaFile(file)
+  File "pysam/libcfaidx.pyx", line 121, in pysam.libcfaidx.FastaFile.__cinit__
+  File "pysam/libcfaidx.pyx", line 153, in pysam.libcfaidx.FastaFile._open
+OSError: file `GCA_033088195.1_CAU_Silkie_1.0_genomic.fnaa` not found
+CAU_Silkie_Dup2_Hap1_HDP1_HDP10.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP121_HDP130.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap1_HDP131_HDP140.bed
+Working on variant 1/7
+Working on variant 2/7
+Working on variant 3/7
+Working on variant 4/7
+Working on variant 5/7
+Working on variant 6/7
+Working on variant 7/7
+CAU_Silkie_Dup2_Hap2_HDP1_HDP10.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP11_HDP20.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP21_HDP30.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP31_HDP40.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP41_HDP50.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP51_HDP60.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP61_HDP70.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP71_HDP80.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP81_HDP90.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP91_HDP100.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP101_HDP110.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP111_HDP120.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP121_HDP130.bed
+Working on variant 1/10
+Working on variant 2/10
+Working on variant 3/10
+Working on variant 4/10
+Working on variant 5/10
+Working on variant 6/10
+Working on variant 7/10
+Working on variant 8/10
+Working on variant 9/10
+Working on variant 10/10
+CAU_Silkie_Dup2_Hap2_HDP131_HDP140.bed
+Working on variant 1/7
+Working on variant 2/7
+Working on variant 3/7
+Working on variant 4/7
+Working on variant 5/7
+Working on variant 6/7
+Working on variant 7/7
