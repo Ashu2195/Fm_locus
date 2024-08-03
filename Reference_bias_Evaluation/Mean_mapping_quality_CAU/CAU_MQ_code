@@ -1,0 +1,24 @@
+##mean MQ calculation
+bedtools bamtobed -i SRR17968711_12_CAU_Silkie_Fm_subseted.bam | awk -v OFS="\t" '{print $1, $2, $3, $5}'|bedtools map -a CAU_chr20_100bp.bed -b stdin -c 4 -o mean > CAU_Silkie_ONT_mean_MQ.bed
+bedtools bamtobed -i SRR17981950_51_52_Silkie_Fm_subseted.bam | awk -v OFS="\t" '{print $1, $2, $3, $5}'|bedtools map -a CAU_chr20_100bp.bed -b stdin -c 4 -o mean > CAU_Silkie_PacBio_mean_MQ.bed
+
+##R code
+R
+read.table(file="CAU_Silkie_ONT_mean_MQ.bed",header=F)->ont
+read.table(file="CAU_Silkie_PacBio_mean_MQ.bed",header=F)->pc
+
+tiff("MQ_CAU.tiff",width = 2980, height = 1480, res = 200)
+par(mfrow=c(2,1))
+par(mar=c(5,5,3,1)) 
+plot(ont$V2,ont$V4,xlim=c(10513186,12527322),type="l",col="tomato2",ylim=c(0,100),xlab="Position along Chr20",ylab="mean of Mapping Quality",main="ONT",cex.main=2, cex.axis=1,cex.lab=1.5,lwd=4)
+rect(11016607,75,11144018,80,lwd=3,col="magenta")
+rect(11144019,75,11322565,80,lwd=3,col="seagreen1")
+rect(11727004,75,11854432,80,lwd=3,col="cyan")
+rect(11854433,75,12025334,80,lwd=3,col="firebrick1")
+
+plot(pc$V2,pc$V4,xlim=c(10513186,12527322),type="l",col="olivedrab",ylim=c(0,100),xlab="Position along Chr20",ylab="mean of Mapping Quality",main="PacBio",cex.main=2, cex.axis=1,cex.lab=1.5,lwd=4)
+rect(11016607,75,11144018,80,lwd=3,col="magenta")
+rect(11144019,75,11322565,80,lwd=3,col="seagreen1")
+rect(11727004,75,11854432,80,lwd=3,col="cyan")
+rect(11854433,75,12025334,80,lwd=3,col="firebrick1")
+dev.off()
